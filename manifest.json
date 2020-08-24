@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Turn off",
+	"description": "Turn off the namu.wiki",
+	"version": "1.0",
+
+	"browser_action":
+	{
+		"default_icon": "나무위키.png",
+		"default_popup": "testing.html"
+	},
+
+	"permissions":
+	[
+		"tabs"
+	],
+
+	"background": 
+	{
+		"scripts": ["turnoff.js"],
+		"persistent": true
+	}
+}
